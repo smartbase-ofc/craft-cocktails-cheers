@@ -38,7 +38,7 @@ const FooterSection = () => {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <div className="flex items-center gap-2">
-            <img src={logo} alt="Lewis Bartender" className="h-8 w-auto" />
+            <img src={logo} alt="Lewis Bartender" className="h-12 w-auto" />
           </div>
           <p>© 2025 Lewis Bartender. Todos os direitos reservados.</p>
           <div className="flex gap-6">
