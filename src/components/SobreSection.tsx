@@ -21,7 +21,7 @@ const SobreSection = () => {
           <div className="mt-8 flex gap-8">
             {[
               { number: "500+", label: "Eventos" },
-              { number: "50+", label: "Drinks Autorais" },
+              { number: "8+", label: "Anos de Experiência" },
               { number: "100%", label: "Satisfação" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
