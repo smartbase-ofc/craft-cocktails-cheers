@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Wine, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo-lw.png";
 
 const links = [
   { href: "#sobre", label: "Sobre" },
@@ -24,8 +25,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-background/90 backdrop-blur-md border-b border-border" : "bg-transparent"}`}>
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
         <a href="#" className="flex items-center gap-2">
-          <Wine className="w-6 h-6 text-primary" />
-          <span className="font-display font-bold text-lg">Lewis Bartender</span>
+          <img src={logo} alt="Lewis Bartender" className="h-10 w-auto" />
         </a>
 
         {/* Desktop */}

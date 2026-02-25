@@ -1,4 +1,5 @@
-import { MessageCircle, Instagram, Wine } from "lucide-react";
+import { MessageCircle, Instagram } from "lucide-react";
+import logo from "@/assets/logo-lw.png";
 
 const FooterSection = () => {
   return (
@@ -37,8 +38,7 @@ const FooterSection = () => {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <div className="flex items-center gap-2">
-            <Wine className="w-5 h-5 text-primary" />
-            <span className="font-display font-semibold text-foreground">Lewis Bartender</span>
+            <img src={logo} alt="Lewis Bartender" className="h-8 w-auto" />
           </div>
           <p>© 2025 Lewis Bartender. Todos os direitos reservados.</p>
           <div className="flex gap-6">
