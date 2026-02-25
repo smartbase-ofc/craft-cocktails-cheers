@@ -1,5 +1,6 @@
 import heroImg from "@/assets/hero-bar.webp";
-import { Wine, MessageCircle } from "lucide-react";
+import logo from "@/assets/logo-lw.png";
+import { MessageCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -12,16 +13,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full border border-gold/30 bg-background/40 backdrop-blur-sm">
-          <Wine className="w-4 h-4 text-primary" />
-          <span className="text-sm font-body tracking-widest uppercase text-primary">Bartending Premium</span>
-        </div>
-
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold mb-6 leading-tight">
-          <span className="text-gradient-gold">Lewis</span>
-          <br />
-          <span className="text-foreground">Bartender</span>
-        </h1>
+        <img src={logo} alt="Lewis Bartender" className="h-32 md:h-44 lg:h-56 w-auto mx-auto mb-8 drop-shadow-2xl" />
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 font-light leading-relaxed">
           Transformamos seu evento em uma experiência inesquecível com drinks autorais e um serviço de bar impecável.
