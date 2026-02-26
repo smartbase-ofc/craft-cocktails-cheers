@@ -15,13 +15,13 @@ const FooterSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://wa.me/5500000000000"
+              href="https://wa.me/5513988531349"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground font-bold rounded-lg glow-gold hover:scale-105 transition-all duration-300 text-lg"
             >
               <MessageCircle className="w-5 h-5" />
-              WhatsApp
+              (13) 98853-1349
             </a>
             <a
               href="https://instagram.com/lewisbartender"
@@ -30,7 +30,7 @@ const FooterSection = () => {
               className="inline-flex items-center gap-3 px-8 py-4 bg-crimson text-secondary-foreground font-bold rounded-lg glow-red hover:scale-105 transition-all duration-300 text-lg"
             >
               <Instagram className="w-5 h-5" />
-              Instagram
+              @lewisbartender
             </a>
           </div>
         </div>
