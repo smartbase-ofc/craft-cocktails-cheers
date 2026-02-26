@@ -9,7 +9,7 @@ const differentials = [
   {
     icon: Palette,
     title: "Cardápio Exclusivo",
-    desc: "Drinks criados especialmente para o tema e estilo do seu evento.",
+    desc: "Variações de cardápios com uma grande seleção de drinks para todos os gostos.",
   },
   {
     icon: Shield,
@@ -19,7 +19,7 @@ const differentials = [
   {
     icon: Truck,
     title: "Logística Completa",
-    desc: "Montagem, bar, gelo, cristalaria e desmontagem — sem preocupação.",
+    desc: "Montagem, bar, gelo e desmontagem — sem preocupação.",
   },
 ];
 

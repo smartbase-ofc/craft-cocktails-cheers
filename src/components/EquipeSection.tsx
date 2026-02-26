@@ -19,7 +19,7 @@ const EquipeSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 gap-8 max-w-2xl mx-auto">
           {team.map((member, i) => (
             <div
               key={member.name}
