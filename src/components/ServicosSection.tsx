@@ -9,7 +9,7 @@ const services = [
   {
     icon: GlassWater,
     title: "Bar Completo",
-    description: "Estrutura completa de bar com equipamentos profissionais, cristalaria e insumos premium.",
+    description: "Estrutura completa de bar com equipamentos profissionais e insumos premium.",
   },
   {
     icon: PartyPopper,
@@ -18,8 +18,8 @@ const services = [
   },
   {
     icon: Sparkles,
-    title: "Bartender Acrobático",
-    description: "Shows de malabarismo com garrafas e coqueteleira para entreter seus convidados.",
+    title: "Show de Tequila",
+    description: "Experiência animada com shots de tequila para agitar a festa dos seus convidados.",
   },
 ];
 
