@@ -5,12 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   server: {
-    host: true,              // permite acesso externo
-    port: 5000,              // Replit usa obrigatoriamente 5000
-    allowedHosts: ['.replit.dev'], // libera domínio do Replit
-    hmr: {
-      overlay: false,
-    },
+    host: "::",
+    port: 8080,
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
