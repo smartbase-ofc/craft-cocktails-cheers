@@ -1,9 +1,8 @@
 import { Award, Users, Clock } from "lucide-react";
 
 const team = [
-  { name: "Lewis", role: "Head Bartender", desc: "Especialista em coquetelaria clássica e contemporânea." },
+  { name: "Lewis", role: "Chefe dos Bartenders", desc: "Apaixonado por criar drinks que marcam a noite de cada convidado." },
   { name: "Equipe Bar", role: "Bartenders", desc: "Profissionais treinados para atender com excelência." },
-  { name: "Suporte", role: "Produção", desc: "Logística e montagem impecável em cada evento." },
 ];
 
 const EquipeSection = () => {

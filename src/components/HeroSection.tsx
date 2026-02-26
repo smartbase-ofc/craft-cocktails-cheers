@@ -12,11 +12,6 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full border border-gold/30 bg-background/40 backdrop-blur-sm">
-          <Wine className="w-4 h-4 text-primary" />
-          <span className="text-sm font-body tracking-widest uppercase text-primary">Bartending Premium</span>
-        </div>
-
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold mb-6 leading-tight">
           <span className="text-gradient-gold">Lewis</span>
           <br />
