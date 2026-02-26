@@ -24,7 +24,7 @@ const HeroSection = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5513988531349"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg glow-gold hover:scale-105 transition-all duration-300 text-lg"

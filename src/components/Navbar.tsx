@@ -36,7 +36,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5513988531349"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 bg-primary text-primary-foreground font-semibold rounded-lg text-sm hover:scale-105 transition-transform"
@@ -60,7 +60,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5513988531349"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-3 px-5 py-2 bg-primary text-primary-foreground font-semibold rounded-lg text-sm"
