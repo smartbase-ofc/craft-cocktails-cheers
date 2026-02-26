@@ -21,7 +21,7 @@ const FooterSection = () => {
               className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground font-bold rounded-lg glow-gold hover:scale-105 transition-all duration-300 text-lg"
             >
               <MessageCircle className="w-5 h-5" />
-              (13) 98853-1349
+              WhatsApp
             </a>
             <a
               href="https://instagram.com/lewisbartender"
@@ -30,7 +30,7 @@ const FooterSection = () => {
               className="inline-flex items-center gap-3 px-8 py-4 bg-crimson text-secondary-foreground font-bold rounded-lg glow-red hover:scale-105 transition-all duration-300 text-lg"
             >
               <Instagram className="w-5 h-5" />
-              @lewisbartender
+              Instagram
             </a>
           </div>
         </div>
