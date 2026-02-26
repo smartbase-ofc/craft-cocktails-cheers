@@ -18,7 +18,7 @@ const services = [
   },
   {
     icon: Sparkles,
-    title: "Flair Bartending",
+    title: "Bartender Acrobático",
     description: "Shows de malabarismo com garrafas e coqueteleira para entreter seus convidados.",
   },
 ];
